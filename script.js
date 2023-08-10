@@ -42,6 +42,11 @@ addtocart.addEventListener('click',function(){
 removebtn.addEventListener('click',function(){
 total.textContent="$0"
 quantity.textContent="0";
+document.querySelector('.add-text').textContent="Items Removed!"
+setTimeout(() => {
+    document.querySelector('.add-text').textContent=""
+}, 2000);
+
 })
 
 cartbtn.addEventListener('click',function(){
