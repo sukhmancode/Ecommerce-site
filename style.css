@@ -69,7 +69,7 @@ nav{
 .main-container{
     padding:2.5rem 18rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap:3rem;
     
 }
