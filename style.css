@@ -24,8 +24,8 @@ body{
     font-size:1.6rem;
 }
 .container{
-    padding:1rem 5rem;
     
+    padding:1rem 5rem;
 }
 .logo:hover{
     scale:1.1;
@@ -67,10 +67,11 @@ nav{
     gap:3rem;
 }
 .main-container{
-    padding:4rem 18rem;
+    padding:2.5rem 18rem;
     display: flex;
     justify-content: space-between;
     gap:3rem;
+    
 }
 .left-container{
     display:flex;
