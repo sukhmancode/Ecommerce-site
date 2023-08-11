@@ -134,6 +134,9 @@ nav{
     gap:1rem;
     width:100%;
 }
+.right-container h1{
+    width: 70%;
+}
 p{
     color:var(--Dark-grayish-blue)
 }
@@ -214,7 +217,7 @@ gap:1rem;
     gap:2rem;
     padding:2rem 1rem;
     margin-top:1rem;
-    transform: translateX(-20rem);
+    transform: translate(-20rem,10rem);
     position: absolute;
     z-index:1111111;
     background-color: #fff;
@@ -307,7 +310,7 @@ border-radius: 18px;
     }
     
 }
-@media screen and (max-width:830px){
+@media screen and (max-width:900px){
     html{
         font-size: 60%;
     }
@@ -322,6 +325,7 @@ border-radius: 18px;
         display: flex;
         width: 100%;
         align-items: center;
+        padding:2rem;
     }
     #bars{
         display:inline;
@@ -352,10 +356,23 @@ border-radius: 18px;
         flex-direction: column;
         width: 100%;
         align-items: center;
+        
+        padding: 2rem 10rem;
  
         justify-content: center;
      align-items: center;
      justify-content: center;
+    }
+    .right-container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-container{
+
+        align-items: center;
+
+        width: 100%;
     }
     
 }
@@ -376,18 +393,21 @@ nav{
  
    
     .main-container{
+        margin-block: 2rem;
     
         padding:0rem;
         flex-direction: column;
         gap:1rem;
 
     }
+    
    .left-container img{
     padding: 0.1rem;
     border-radius: 8px;
 height: 100%;
     width: 100%;
    }
+
    .nav-part2{
     margin-left: 2rem;
 }
@@ -398,6 +418,10 @@ height: 100%;
     .right-container{
         padding-inline: 1rem;
         width:100%;
+        align-items: start;
+    }
+    .right-container h1{
+        width: 100%;
     }
     .cart-section{
         padding:0rem;
@@ -406,7 +430,7 @@ height: 100%;
     }
     .cart{
         width: 70%;
-        transform: translateX(-18rem);
+        transform: translate(-18rem,7rem);
     }
     .cart-button{       
     margin-inline-end: 30%;

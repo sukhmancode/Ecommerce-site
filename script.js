@@ -65,7 +65,9 @@ setTimeout(() => {
     document.querySelector('.add-text').textContent=""
 }, 2000);
 cartitems.classList.remove('active')
+
 document.querySelector('#check').classList.add('hidden')
+document.querySelector('.cart-txt').textContent="Your Cart is empty."
 
 })
 
