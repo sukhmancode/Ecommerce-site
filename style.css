@@ -138,10 +138,14 @@ h5{
 .price-tag{
     margin-top:2rem;
     display: flex;
-    align-items: center;
-    gap:2rem;
+   justify-content: center;
+    flex-direction: column;
+    gap:1rem;
 }
-.price-tag h3{
+.price-tag span{
+    
+    font-weight: 700;
+    font-size: 1.8rem;
     background-color: var(--Light-grayish-blue);
     color: var(--Orange);
 }
@@ -149,6 +153,10 @@ h5{
     text-decoration: line-through;
     opacity: 0.5;
     font-weight: 700;
+    
+}
+.actual-price{
+    display: inline-block;
 }
 .increment{
     margin:3rem 1rem;
@@ -393,6 +401,11 @@ height: 100%;
         align-items: center;
         display: flex;
         
+        justify-content: space-between;
+    }
+    .price-tag{
+        flex-direction: row;
+        align-items: center;
         justify-content: space-between;
     }
 }
