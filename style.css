@@ -118,6 +118,11 @@ nav{
     display: flex;
     gap:2rem;
 }
+.cart-photo {
+    border-radius: 50%;
+    box-shadow: 1px 1px 30px var(--Grayish-blue);
+    mix-blend-mode: exclusion;
+}
 .option-image.active{
     opacity: 0.6;
     
