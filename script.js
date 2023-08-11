@@ -40,14 +40,14 @@ addtocart.addEventListener('click',function(){
         document.querySelector('.add-text').textContent="Enter a Valid Quantity"
         setTimeout(() => {
             document.querySelector('.add-text').textContent=""
-        }, 2000);
+        }, 1000);
        
     }
     else{
     document.querySelector('.add-text').textContent="Please Check your cart!"
     setTimeout(() => {
         document.querySelector('.add-text').textContent=""
-    }, 2000);
+    }, 1000);
     cartitems.classList.add('active')
     document.querySelector('.cart-txt').textContent=""
     document.querySelector('#check').classList.remove('hidden')
@@ -63,7 +63,7 @@ quantity.textContent="0";
 document.querySelector('.add-text').textContent="Items Removed!"
 setTimeout(() => {
     document.querySelector('.add-text').textContent=""
-}, 2000);
+}, 1000);
 cartitems.classList.remove('active')
 
 document.querySelector('#check').classList.add('hidden')
@@ -74,10 +74,7 @@ document.querySelector('.cart-txt').textContent="Your Cart is empty."
 cartbtn.addEventListener('click',function(){
 if(quantity.textContent <=0){
     document.querySelector('.cart-txt').textContent="Your Cart is empty."
- 
 }
-
-
     cartbtn.style.cursor="pointer"
     cartShow.classList.toggle('hidden')
 })
